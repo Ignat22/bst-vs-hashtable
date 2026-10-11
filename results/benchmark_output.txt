@@ -1,0 +1,29 @@
+Java 17.0.20.1 | Windows 10 | runs per test: 30 (median)
+
+Structure      Input          n    Insert (us)    Search (us)    Delete (us)
+----------------------------------------------------------------------------
+BST            random       100            1.9            3.6            4.1
+BST            sorted       100            8.8            9.7            5.4
+HashTable      random       100            2.8            1.0            1.1
+HashTable      sorted       100            2.8            1.0            1.2
+BadHashTable   random       100            9.8            8.4            5.1
+
+n = 100: BST height random = 14, sorted = 100 | HashTable capacity = 256, longest chain = 3
+
+BST            random      1000           43.2           48.1           47.2
+BST            sorted      1000          731.2          855.0          383.0
+HashTable      random      1000           19.5            6.8            7.9
+HashTable      sorted      1000           19.8            6.7            7.9
+BadHashTable   random      1000          832.9          725.2          367.1
+
+n = 1000: BST height random = 21, sorted = 1000 | HashTable capacity = 2048, longest chain = 4
+
+BST            random     10000          707.1          803.7          753.6
+BST            sorted     10000        83383.5        87880.4        60929.2
+HashTable      random     10000          262.4           92.4          105.3
+HashTable      sorted     10000          261.9           91.8          105.3
+BadHashTable   random     10000        87561.5        76755.0        52138.2
+
+n = 10000: BST height random = 32, sorted = 10000 | HashTable capacity = 16384, longest chain = 6
+
+Saved to results/results.csv and results/structure_stats.csv

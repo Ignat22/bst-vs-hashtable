@@ -1,0 +1,17 @@
+structure,input,n,insert_us,search_us,delete_us
+BST,random,100,1.9,3.6,4.1
+BST,sorted,100,8.8,9.7,5.4
+HashTable,random,100,2.8,1.0,1.1
+HashTable,sorted,100,2.8,1.0,1.2
+BadHashTable,random,100,9.8,8.4,5.1
+BST,random,1000,43.2,48.1,47.2
+BST,sorted,1000,731.2,855.0,383.0
+HashTable,random,1000,19.5,6.8,7.9
+HashTable,sorted,1000,19.8,6.7,7.9
+BadHashTable,random,1000,832.9,725.2,367.1
+BST,random,10000,707.1,803.7,753.6
+BST,sorted,10000,83383.5,87880.4,60929.2
+HashTable,random,10000,262.4,92.4,105.3
+HashTable,sorted,10000,261.9,91.8,105.3
+BadHashTable,random,10000,87561.5,76755.0,52138.2
+
